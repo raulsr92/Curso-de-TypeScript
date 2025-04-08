@@ -15,7 +15,7 @@ console.log(`Mes inicial: ${mes}`)
 
 mes = "Febrero"
 
-console.log(`Mes inicial: ${mes}`)
+console.log(`Mes actualizado: ${mes}`)
 
 
 console.log(`Hola, mi nombre es ${nombre}, nací un 10 de ${mes}, ahora tengo ${edad}. ¿Soy desarrollador?: ${esDesarrollador}`)
