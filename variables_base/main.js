@@ -1,10 +1,11 @@
-var nombre = "Raul";
-var edad = 33;
-var esDesarrollador = true;
+"use strict";
+let nombre = "Raul";
+let edad = 33;
+let esDesarrollador = true;
 //Tipo de variable que no estoy seguro si será de tipo cadena o indefinida
-var mes;
-var variableNull = null;
-console.log("Mes inicial: ".concat(mes));
+let mes;
+let variableNull = null;
+console.log(`Mes inicial: ${mes}`);
 mes = "Febrero";
-console.log("Mes actualizado: ".concat(mes));
-console.log("Hola, mi nombre es ".concat(nombre, ", nac\u00ED un 10 de ").concat(mes, ", ahora tengo ").concat(edad, ". \u00BFSoy desarrollador?: ").concat(esDesarrollador));
+console.log(`Mes actualizado: ${mes}`);
+console.log(`Hola, mi nombre es ${nombre}, nací un 10 de ${mes}, ahora tengo ${edad}. ¿Soy desarrollador?: ${esDesarrollador}`);
